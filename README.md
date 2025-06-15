@@ -1,40 +1,44 @@
 # bookbot
-BookBot is a project from the [Boot.dev](https://boot.dev) development course. It aims to teach how to access a file a generate useful data from it, by using a book in the public domain (Frankenstein, by Mary Shelley) and using Python functions to extract data and generate a report from the data retrieved.
+BookBot is a project from the [Boot.dev](https://boot.dev) development course. It aims to teach how to access a file a generate useful data from it, using Python functions to extract data and generate a report from the data retrieved.
 
-## Instructions
-- A copy of the [book's text](https://raw.githubusercontent.com/asweigart/codebreaker/master/frankenstein.txt) must be included in the file `./books/frankenstein.txt`
-- Run the file main.py (`python3 main.py`)
+## Usage
+- python3 main.py <path_to_book>
 
 ## Expected Result
 After running the file, a "book report" should be printed in the console, like as follows:
 
---- Begin report of books/frankenstein.txt ---\
-77986 words found in the document\
-\
-The 'e' character was found 46043 times\
-The 't' character was found 30365 times\
-The 'a' character was found 26743 times\
-The 'o' character was found 25225 times\
-The 'i' character was found 24613 times\
-The 'n' character was found 24367 times\
-The 's' character was found 21155 times\
-The 'r' character was found 20818 times\
-The 'h' character was found 19725 times\
-The 'd' character was found 16863 times\
-The 'l' character was found 12739 times\
-The 'm' character was found 10604 times\
-The 'u' character was found 10407 times\
-The 'c' character was found 9243 times\
-The 'f' character was found 8731 times\
-The 'y' character was found 7914 times\
-The 'w' character was found 7638 times\
-The 'p' character was found 6121 times\
-The 'g' character was found 5974 times\
-The 'b' character was found 5026 times\
-The 'v' character was found 3833 times\
-The 'k' character was found 1755 times\
-The 'x' character was found 677 times\
-The 'j' character was found 504 times\
-The 'q' character was found 324 times\
-The 'z' character was found 243 times\
+--- Begin report of books/frankenstein.txt ---
+75767 words found in the document
+
+e: 44538
+t: 29493
+a: 25894
+o: 24494
+i: 23927
+n: 23643
+s: 20360
+r: 20079
+h: 19176
+d: 16318
+l: 12306
+m: 10206
+u: 10111
+c: 9011
+f: 8451
+y: 7756
+w: 7450
+p: 5952
+g: 5795
+b: 4868
+v: 3737
+k: 1661
+x: 691
+j: 497
+q: 325
+z: 235
+æ: 28
+â: 8
+ê: 7
+ë: 2
+ô: 1
 --- End report ---
