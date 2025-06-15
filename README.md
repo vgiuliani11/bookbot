@@ -38,5 +38,3 @@ The 'j' character was found 504 times\
 The 'q' character was found 324 times\
 The 'z' character was found 243 times\
 --- End report ---
-
-BookBot is my first [Boot.dev](https://www.boot.dev) project!
