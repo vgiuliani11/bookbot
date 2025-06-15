@@ -42,5 +42,5 @@ def print_book_report(path):
     print(f"{word_count} words found in the document")
     print("")
     for dict in char_sorted_list:
-        print(f"The '{dict['char']}' character was found {dict['num']} times")
+        print(f"{dict['char']}: {dict['num']}")
     print("--- End report ---")
